@@ -1,0 +1,31 @@
+6 ; <- This number tells how many lines must be skipped before read.
+;
+; Files relative to the data for Aleutian hydrophone network in 2022-2023
+; Station names are (alphabetically): H32 H38 H40 H41
+; Stations are arranged in alphabetical manner starting with --------------------------------
+; Begin input
+;
+4 ; For T-Phase files to be read.
+4 /Volumes/RPT_4TB/EA-5/00000000.DAT
+  /Volumes/RPT_4TB/tphase/tphaseEA/H32.sys
+  01, 15000.0, 5.0, 6.0, 1.0, 0.1, 5, 0, 60, 0.0
+  H32
+4 /Volumes/RPT_4TB/EA-5/00000000.DAT
+  /Volumes/RPT_4TB/tphase/tphaseEA/H38.sys
+  01, 15000.0, 5.0, 6.0, 1.0, 0.1, 5, 0, 60, 0.0
+  H38
+4 /Volumes/RPT_4TB/EA-5/00000000.DAT
+  /Volumes/RPT_4TB/tphase/tphaseEA/H40.sys
+  01, 15000.0, 5.0, 6.0, 1.0, 0.1, 5, 0, 60, 0.0
+  H40
+4 /Volumes/RPT_4TB/EA-5/00000000.DAT
+  /Volumes/RPT_4TB/tphase/tphaseEA/H41.sys
+  01, 15000.0, 5.0, 6.0, 1.0, 0.1, 5, 0, 60, 0.0
+  H41
+4 MID
+   53.3396 53.4038 53.3384 53.2725 
+   -176.5764 -176.4708 -176.3639 -176.4712  
+   W, N, E, S 
+0.001, 0.001 
+;
+; End Input
